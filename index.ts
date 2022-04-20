@@ -25,7 +25,7 @@ const board: IBoard = new Board({
 })
 
 board.on('ready', (): void => {
-  var multi: IMulti = new Multi({
+  const multi: IMulti = new Multi({
     controller: 'HTU21D',
   })
 
